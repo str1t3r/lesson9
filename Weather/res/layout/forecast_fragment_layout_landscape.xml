@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ffffff"
+   android:clickable="false">
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/forecast_layout_landscape" android:layout_width="match_parent"
+      android:layout_height="match_parent" android:orientation="vertical">
+       <TextView android:id="@+id/location"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" android:textSize="20sp"
+         android:textColor="@android:color/black" android:gravity="center"
+         android:layout_marginBottom="15dp"/>
+       <ImageView android:id="@+id/forecast_image"
+          android:layout_width="match_parent" android:layout_height="wrap_content"/>
+       <TableLayout
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+           <TableRow
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+               <TextView android:id="@+id/temperature_label"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:gravity="center"
+                 android:text="@string/temperature_label_string"
+                 android:textSize="15sp" android:textColor="@android:color/black"
+                 android:padding="2dp"/>
+               <TextView android:id="@+id/temperature"
+                 android:layout_width="match_parent" android:gravity="center"
+                 android:layout_height="wrap_content" android:textSize="15sp"
+                 android:textColor="@android:color/black" android:padding="2dp"/>
+           </TableRow>
+           <TableRow
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+               <TextView android:id="@+id/pressure_label"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:gravity="center"
+                 android:text="@string/pressure_label_string"
+                 android:textSize="15sp" android:textColor="@android:color/black"
+                 android:padding="2dp"/>
+               <TextView android:id="@+id/pressure" android:textSize="15sp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:gravity="center"
+                 android:textColor="@android:color/black" android:padding="2dp"/>
+           </TableRow>
+           <TableRow
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+               <TextView android:id="@+id/humidity_label"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" android:textSize="15sp"
+                 android:text="@string/humidity_label_string"
+                 android:textColor="@android:color/black" android:padding="2dp"/>
+               <TextView android:id="@+id/humidity" android:gravity="center"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:textSize="15sp"
+                 android:textColor="@android:color/black" android:padding="2dp"/>
+           </TableRow>
+           <TableRow
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+               <TextView android:id="@+id/precipitation_label"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" android:gravity="center"
+                 android:text="@string/precipitation_label_string"
+                 android:textSize="15sp" android:textColor="@android:color/black"
+                 android:padding="2dp"/>
+               <TextView android:id="@+id/precipitation"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center" android:textSize="15sp"
+                 android:textColor="@android:color/black"
+                 android:padding="2dp"/>
+           </TableRow>
+           <TableRow
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+               <TextView android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/wind_label" android:textSize="15sp"
+                 android:textColor="@android:color/black"
+                 android:text="@string/wind_label_string"
+                 android:gravity="center"
+                 android:padding="2dp"/>
+               <TextView android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:id="@+id/wind" android:textSize="15sp"
+                 android:textColor="@android:color/black"
+                 android:padding="2dp"/>
+           </TableRow>
+       </TableLayout>
+   </LinearLayout>
+</FrameLayout>

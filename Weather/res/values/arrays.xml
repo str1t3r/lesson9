@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_cities_names">
+        <item>Moscow</item>
+        <item>Orel</item>
+        <item>Saint Petersburg</item>
+    </string-array>
+    <string-array name="default_city_woeid">
+        <item>2122265</item>
+        <item>2122653</item>
+        <item>2123260</item>
+    </string-array>
+</resources>

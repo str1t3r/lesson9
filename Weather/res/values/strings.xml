@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="add_new_city">Add</string>
+    <string name="default_name">2123260</string>
+    <string name="duplicate_error">You have already added this city!</string>
+    <string name="woeid_error">Error! Please check your Internet connection or WOEID of city</string>
+    <string name="current_conditions">Current conditions</string>
+    <string name="three_days_forecast">Three days forecast</string>
+    <string name="dialog_prefix">Perform which action on&#160;</string>
+    <string name="dialog_postfix">\?</string>
+    <string name="dialog_preferred">Set Preferred</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="last_city_warning">You can not delete last city in the lsit!</string>
+    <string name="dialog_bundle_key">input</string>
+    <string name="dialog_title">Add city</string>
+    <string name="woeid_prompt">Please enter WOEID</string>
+    <string name="add_city_checkbox_text">Set preferred</string>
+    <string name="add_city_button_text">OK</string>
+    <string name="location_label_string">Location</string>
+    <string name="wind_label_string">Wind:</string>
+    <string name="temperature_label_string">Temperature:</string>
+    <string name="precipitation_label_string">Conditions:</string>
+    <string name="pressure_label_string">Pressure:</string>
+    <string name="humidity_label_string">Humidity:</string>
+    <string name="loading_message">Loading...pls wait</string>
+    <string name="temperature_unit">C</string>
+    <string name="null_data_toast">Data could not be read from web service</string>
+    <string name="url_prefix">http://weather.yahooapis.com/forecastrss?w=</string>
+    <string name="url_postfix">&#38;u=c</string>
+    <string name="wind_speed">speed</string>
+    <string name="wind_direction">direction</string>
+    <string name="temp">temp</string>
+    <string name="condition">text</string>
+    <string name="high_temperature_label">High temperature</string>
+    <string name="low_temperature_label">Low temperature</string>
+
+</resources>
